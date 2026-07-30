@@ -32,7 +32,7 @@ Open the local URL printed by the development server.
 
 ```bash
 npm run lint
-npm test
+npm run build
 ```
 
 ## Project structure
@@ -46,4 +46,4 @@ npm test
 - `public/images/` — brand, food, and historical imagery
 
 Built from the supplied `restaurant-site-template` as the structural reference
-and adapted to the Sites runtime.
+and configured as a standard Next.js application for Netlify.
