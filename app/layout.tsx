@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
+import PurchaseWebsiteButton from "@/app/components/PurchaseWebsiteButton";
 import { fullAddress, site } from "@/app/site";
 
 import "./globals.css";
@@ -116,6 +117,7 @@ export default function RootLayout({
         <Header />
         <main id="main-content">{children}</main>
         <Footer />
+        <PurchaseWebsiteButton />
         <span className="sr-only">{fullAddress}</span>
       </body>
     </html>
